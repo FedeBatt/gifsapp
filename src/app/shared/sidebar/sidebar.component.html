@@ -1,0 +1,16 @@
+<div class="sidebarContainer border-right p-3" id="sidebar">
+    <div>
+        <h3 class="text-light">Gifs app</h3>
+        <div class="list-group list-reset">
+            <hr>
+            <a href="#" class="list-group-item list-group-item-action mb-3" *ngFor="let x of historial"
+                (click)="buscar(x)">{{x
+                | titlecase}}</a>
+        </div>
+    </div>
+    <div>
+        <h4 class="fmo">Go to my:</h4>
+        <a class="socials" href="https://github.com/FedeBatt" target="_blank">Github</a>
+        <a class="socials" href="https://www.linkedin.com/in/federico-battcock-2743a3191/" target="_blank">Linkedin</a>
+    </div>
+</div>
